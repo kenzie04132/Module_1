@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
 //the creates a list space for any tasks created, and is dynamic so there's no cap 
-List<Task> taskList = new List<Task>();
+List<Task> taskList = new List<Task>(); 
 
 //intro line just so the user knows what kind of program they're looking at
 Console.WriteLine("Welcome to your task scheduler! This program will allow you to add tasks and then view them, letting you see what needs to be done, when, and if any of your projects are overdue.");
